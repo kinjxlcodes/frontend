@@ -3,7 +3,7 @@ import axios from "axios";
 import { motion } from "framer-motion";
 import { LampContainer } from "../ui/lamp";
 
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:5174";
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "https://kinjxlcodes.pythonanywhere.com/";
 const API_KEY = import.meta.env.VITE_SEGMIND_API_KEY; // Load API key from .env
 
 const UploadForm = () => {
